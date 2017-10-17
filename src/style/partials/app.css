@@ -1,0 +1,128 @@
+.img-responsive{
+    display: block;
+    max-width: 90%; /* or to whatever you want here */
+    max-height: auto; /* or to whatever you want here */
+  }
+
+.row-pageContainer{
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+a,p{
+    font-size: 15px;
+}
+.btn{
+    font-size: 15px;
+}
+img{
+    padding: 0 0px;
+    margin: 0 0px;
+}
+ul{
+    list-style-type: none;
+    padding: 0 0px;
+}
+li{
+    margin-top: 10px;
+}
+.blockliteRed{
+background-color: #FFA07A;
+}
+.blockliteGreen{
+    background-color:  #98FB98;
+}
+textarea.form-control {
+    height: 100px;
+    margin-bottom: 5px;
+}
+label{
+    font-size: 13px;
+}
+.panel{
+margin-top: 10px;
+}
+.deleteBtn{
+    margin-left: auto;
+}
+.form-control{
+    font-size: 13px;
+}
+.list-group-item{
+    font-size: 13px;
+}
+.input-group-btn{
+    height: 32px;
+    width: 50px;
+    margin-top: 1px;
+}
+.input-group{
+    width: auto; 
+}
+.navbar-form .input-group>.form-control {
+    width: auto;
+}
+.navbar-form{
+    position: fixed;
+    background-color:black;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 10000;
+    margin: 0 0px;
+    padding: 0 0px;
+    display: inline-block;
+}
+.page-container{
+    position: relative;
+    margin-top: 10px;
+}
+.modal-btn{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.navbar-form .input-group {
+    display: inline-table;
+    vertical-align: middle;
+    width:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    margin-left: 10px;  
+}
+#modalView{
+    width: 80%;
+    left: 10%;
+}
+.bd-example{
+    height: 50px;
+}
+.modal-body{
+    padding-top:0px;
+    padding-left: 0px;
+}
+@media only screen and (min-width:960px){
+    /* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width:1440px){
+    /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width:2000px){
+    /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width:480px){
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+   .navbar-form .input-group>.form-control {
+       width: 150px;
+   }
+}
+@media only screen and (device-width:768px){
+   /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+}

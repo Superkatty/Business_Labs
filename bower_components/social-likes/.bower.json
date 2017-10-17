@@ -1,0 +1,15 @@
+{
+  "name": "social-likes",
+  "homepage": "https://github.com/sapegin/social-likes",
+  "version": "3.1.2",
+  "_release": "3.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.1.2",
+    "commit": "dcdf99c49434adec1b803d9368d2c06d14574eac"
+  },
+  "_source": "https://github.com/sapegin/social-likes.git",
+  "_target": "^3.1.2",
+  "_originalSource": "social-likes",
+  "_direct": true
+}
