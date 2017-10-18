@@ -41,7 +41,7 @@ window.controllersBtn = function (container, body) {
             body.getElementsByClassName("modal-btn")[0].textContent = "Launch modal " + JSON.parse(localStorage.getItem('localObject')).blocksCount.length;
         }
         catch (e) {
-            console.log(e);
+            body.getElementsByClassName("modal-btn")[0].textContent = "Launch modal 0";
         }
     });
 }
