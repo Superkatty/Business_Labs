@@ -13,7 +13,6 @@ getDataFromAPI(builBlock);
 
 //построение блока
 function builBlock(data) {
-    localStorage.clear();
     var blockCount = 1;
     var hits = data.hits;
     pageContainer = document.body.getElementsByClassName('page-container')[0];
